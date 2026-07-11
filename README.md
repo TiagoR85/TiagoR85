@@ -117,7 +117,8 @@
 
 <div align="center">
 
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=TiagoR85&show_icons=true&theme=radical&hide_border=true)
+![GitHub Stats](https://github-readme-stats-sigma-five.vercel.app/api?username=TiagoR85&show_icons=true&theme=radical&hide_border=true)
+![Top Languages](https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=TiagoR85&layout=compact&theme=radical&hide_border=true)
 
 </div>
 

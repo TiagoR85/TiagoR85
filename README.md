@@ -18,7 +18,7 @@
 - Passionate about **AI automation** and **WhatsApp integrations**
 - Currently building **BrubruNails** — an AI-powered assistant for nail designers
 - Stack: **C# .NET 10**, PostgreSQL, Redis, Gemini AI, Docker
-- **Microsoft Certified** and **10x certified** in graduation (Sistemas de Informação)
+- **Microsoft Certified** and **10x certified** in graduation (Engenharia de Software)
 - Believer in clean code, TDD, and continuous learning
 
 ---
@@ -99,7 +99,7 @@
 | [Global Network](certificados/graduacao/certificado%20Global%20Network.pdf) | Networking |
 | [Sistemas Operacionais](certificados/graduacao/certificado%20Sistemas%20Operacionais.pdf) | Operating Systems |
 
-<small>Graduação em Sistemas de Informação —10 certificações</small>
+<small>Engenharia de Software — Faculdade Descomplica —10 certificações</small>
 
 ---
 

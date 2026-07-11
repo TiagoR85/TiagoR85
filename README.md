@@ -18,6 +18,7 @@
 - Passionate about **AI automation** and **WhatsApp integrations**
 - Currently building **BrubruNails** — an AI-powered assistant for nail designers
 - Stack: **C# .NET 10**, PostgreSQL, Redis, Gemini AI, Docker
+- **Microsoft Certified** and **10x certified** in graduation (Sistemas de Informação)
 - Believer in clean code, TDD, and continuous learning
 
 ---

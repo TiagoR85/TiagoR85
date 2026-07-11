@@ -6,6 +6,7 @@
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/tiago-rodrigues/)
 [![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:Tiago.rds85@hotmail.com)
+[![Microsoft](https://img.shields.io/badge/Microsoft-Certified-00A4EF?style=for-the-badge&logo=microsoft&logoColor=white)](https://learn.microsoft.com/api/credentials/share/pt-br/tiagords85/F5C3082317EE5F2A?sharingId=44ADADCD17CCD978)
 
 </div>
 
@@ -33,6 +34,31 @@
 ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
 
 </div>
+
+---
+
+### Certifications
+
+<div align="center">
+
+[![Microsoft Certified](https://img.shields.io/badge/Microsoft%20Certified-00A4EF?style=for-the-badge&logo=microsoft&logoColor=white)](https://learn.microsoft.com/api/credentials/share/pt-br/tiagords85/F5C3082317EE5F2A?sharingId=44ADADCD17CCD978)
+
+</div>
+
+| Certification | Area |
+|---------------|------|
+| [Programming Basics](certificados/graduacao/certificado%20Programming%20Basics.pdf) | Programming |
+| [Object-Oriented Developer](certificados/graduacao/certificado%20Object-Oriented%20Developer.pdf) | Programming |
+| [Smart Data Structures](certificados/graduacao/certificado%20Smart%20Data%20Structures.pdf) | Data Structures |
+| [DB Developer](certificados/graduacao/certificado%20DB%20Developer.pdf) | Database |
+| [Mobile Developer](certificados/graduacao/certificado%20Mobile%20Developer.pdf) | Mobile Development |
+| [User Experience](certificados/graduacao/certificado%20User%20Experience.pdf) | UX/UI |
+| [Internet das Coisas](certificados/graduacao/certificado%20Internet%20das%20coisas.pdf) | IoT |
+| [Local Area Network](certificados/graduacao/certificado%20Local%20Area%20Network.pdf) | Networking |
+| [Global Network](certificados/graduacao/certificado%20Global%20Network.pdf) | Networking |
+| [Sistemas Operacionais](certificados/graduacao/certificado%20Sistemas%20Operacionais.pdf) | Operating Systems |
+
+<small>Graduação em Sistemas de Informação —10 certificações</small>
 
 ---
 

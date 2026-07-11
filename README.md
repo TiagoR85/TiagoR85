@@ -103,58 +103,6 @@
 
 ---
 
-### Featured Projects
-
-#### [BrubruNails](https://github.com/TiagoR85/AssistentePessoal) — AI WhatsApp Assistant
-
-Full-stack AI-powered WhatsApp assistant for nail designers. Automated scheduling, client management, and financial tracking.
-
-**Architecture:**
-- **Backend:** C# .NET 10 Minimal APIs + EF Core + PostgreSQL
-- **AI Pipeline:** Gemini → Groq → Cerebras (automatic fallback)
-- **WhatsApp:** Evolution API v2.3.7 integration
-- **Dashboard:** Blazor Server (self-hosted)
-- **Cache:** Redis + StackExchange.Redis
-- **Tests:** 128 MSTest + Moq + FluentAssertions
-- **Infra:** Docker Compose + Nginx + GitHub Actions CI/CD
-
-**Key Features:**
-- Conversational AI with intent extraction
-- Automatic appointment scheduling via WhatsApp
-- Client registration and history tracking
-- Financial reports and cash flow (admin only)
-- Multi-LLM fallback (Gemini → Groq → Cerebras)
-- Audio transcription via Groq Whisper
-
----
-
-#### [FinAI](https://github.com/TiagoR85/FinAI) — Investment Assistant
-
-WhatsApp-based investment assistant for B3 portfolio rebalancing. AI analyzes recommendations and calculates optimal asset distribution.
-
-**Architecture:**
-- **Backend:** C# .NET 10 Minimal APIs + EF Core
-- **Database:** PostgreSQL + pgvector (vector search)
-- **AI:** Microsoft.Extensions.AI → OpenAI
-- **WhatsApp:** WAHA (WhatsApp HTTP API)
-- **Dashboard:** Blazor Server
-
-**Key Features:**
-- Portfolio rebalancing calculations
-- Historical context via pgvector similarity search
-- Integration with analyst recommendation spreadsheets
-- Multi-user support
-
----
-
-#### [Brubru Nails Website](https://github.com/TiagoR85/brubru-nails)
-
-Official landing page for Brubru Nails digital products brand.
-
-**Stack:** Astro + Tailwind CSS + TypeScript + GSAP animations
-
----
-
 ### GitHub Stats
 
 <div align="center">

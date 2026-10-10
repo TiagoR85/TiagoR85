@@ -23,6 +23,35 @@
 
 ---
 
+### Portfolio
+
+**Family 1 — `einvoice-hub` (EU e-invoicing, SaaS candidate)** — *planned*
+
+OpenIddict/OIDC · JWT · RabbitMQ · MinIO · iText · Redis · PostgreSQL · Blazor
+
+- `einvoice-api` — REST API + outbox
+- `einvoice-worker` — async PDF/XML processing
+
+**Family 2 — `logpipe` (observability pipeline)** — *planned*
+
+OpenTelemetry · Prometheus · NLog · Elasticsearch · gRPC · Redis · Blazor
+
+- `logpipe-ingest` · `logpipe-search` · `logpipe-contracts`
+
+**Family 3 — `jobforge` (job orchestration)** — *planned*
+
+Kafka · Redis leases · gRPC streaming · outbox/idempotency · Blazor
+
+- `jobforge-orchestrator` · `jobforge-runner`
+
+**Foundations & standalone**
+
+- [`docker-dotnet-template`](https://github.com/TiagoR85/docker-dotnet-template) — hardened multi-stage .NET image (non-root, healthchecks, Trivy-gated CI)
+- [`ci-pipeline-templates`](https://github.com/TiagoR85/ci-pipeline-templates) — reusable pipelines for GitHub Actions / Azure DevOps / Jenkins with a coverage quality gate
+- more standalone repos landing weekly
+
+---
+
 ### Tech Stack
 
 <div align="center">

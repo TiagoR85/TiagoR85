@@ -25,11 +25,11 @@
 
 ### Portfolio
 
-**Family 1 — `einvoice-hub` (EU e-invoicing, SaaS candidate)** — *planned*
+**Family 1 — `einvoice-hub` (EU e-invoicing, SaaS candidate)** — *in progress (api shipped)*
 
 OpenIddict/OIDC · JWT · RabbitMQ · MinIO · iText · Redis · PostgreSQL · Blazor
 
-- `einvoice-api` — REST API + outbox
+- [`einvoice-api`](https://github.com/TiagoR85/einvoice-api) — REST API: scoped JWT auth, transactional outbox → CloudEvents on RabbitMQ, Redis idempotency + rate limiting · v1.0.0
 - `einvoice-worker` — async PDF/XML processing
 
 **Family 2 — `logpipe` (observability pipeline)** — *planned*

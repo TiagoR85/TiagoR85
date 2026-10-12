@@ -20,6 +20,7 @@
 - Stack: **C# .NET 10**, PostgreSQL, Redis, Gemini AI, Docker
 - **Microsoft Certified** and **10x certified** in graduation (Engenharia de Software)
 - Believer in clean code, TDD, and continuous learning
+- All portfolio projects are **study projects**: I learn by building, using **AI-assisted development tools** (agent pair programming) while keeping production-grade practices — automated tests, CI quality gates, security scans and documented decisions
 
 ---
 

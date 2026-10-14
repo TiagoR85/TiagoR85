@@ -137,17 +137,6 @@ Kafka · Redis leases · gRPC streaming · outbox/idempotency · Blazor
 
 ---
 
-### GitHub Stats
-
-<div align="center">
-
-![GitHub Stats](https://github-readme-stats-sigma-five.vercel.app/api?username=TiagoR85&show_icons=true&theme=radical&hide_border=true)
-![Top Languages](https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=TiagoR85&layout=compact&theme=radical&hide_border=true)
-
-</div>
-
----
-
 <div align="center">
 
 *"NÃO TÃO JOVEM, MAS NEM TÃO VELHO PARA APRENDER ALGO NOVO."*

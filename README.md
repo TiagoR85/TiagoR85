@@ -26,18 +26,22 @@
 
 ### Portfolio
 
-**Family 1 — `einvoice-hub` (EU e-invoicing, SaaS candidate)** — *in progress (api shipped)*
+**Family 1 — `einvoice-hub` (EU e-invoicing, SaaS candidate)** — *shipped · v1.0.0*
 
-OpenIddict/OIDC · JWT · RabbitMQ · MinIO · iText · Redis · PostgreSQL · Blazor
+OpenIddict/OIDC · JWT · RabbitMQ · MinIO/S3 · iText · Redis · PostgreSQL · Blazor
 
 - [`einvoice-api`](https://github.com/TiagoR85/einvoice-api) — REST API: scoped JWT auth, transactional outbox → CloudEvents on RabbitMQ, Redis idempotency + rate limiting · v1.0.0
-- `einvoice-worker` — async PDF/XML processing
+- [`einvoice-worker`](https://github.com/TiagoR85/einvoice-worker) — async XML/PDF processing (iText) with idempotency markers and retry classification · v1.0.0
+- [`einvoice-ui`](https://github.com/TiagoR85/einvoice-ui) — Blazor dashboard with confidential-client OAuth and a one-command hub compose · v1.0.0
 
-**Family 2 — `logpipe` (observability pipeline)** — *planned*
+**Family 2 — `logpipe` (observability pipeline)** — *shipped · v1.0.0*
 
 OpenTelemetry · Prometheus · NLog · Elasticsearch · gRPC · Redis · Blazor
 
-- `logpipe-ingest` · `logpipe-search` · `logpipe-contracts`
+- [`logpipe-contracts`](https://github.com/TiagoR85/logpipe-contracts) — protobuf contract (LogEntry + StreamLogs) shipped as a versioned NuGet package
+- [`logpipe-ingest`](https://github.com/TiagoR85/logpipe-ingest) — REST ingest with OAuth client-credentials, Redis rate limiting + dedup, gRPC batch forwarding with bounded loss
+- [`logpipe-search`](https://github.com/TiagoR85/logpipe-search) — Elasticsearch indexing with 7-day retention (daily indices + alias), fuzzy search and facets behind OIDC scopes
+- [`logpipe-ui`](https://github.com/TiagoR85/logpipe-ui) — Blazor search dashboard + one-command Docker hub (git-context builds) · 83 tests, 85–92% coverage
 
 **Family 3 — `jobforge` (job orchestration)** — *planned*
 

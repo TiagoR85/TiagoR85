@@ -26,15 +26,21 @@
 
 ### Portfolio
 
-**Family 1 — `einvoice-hub` (EU e-invoicing, SaaS candidate)** — *shipped · v1.0.0*
+18 public repos · all green on CI · tagged **v1.0.0+** with Releases · 3–5 ADRs each · Dependabot everywhere
+
+**Family 1 — `einvoice-hub`** (EU e-invoicing · SaaS candidate) — *shipped v1.0.0*
+
+[![einvoice-api](https://github.com/TiagoR85/einvoice-api/actions/workflows/ci.yml/badge.svg)](https://github.com/TiagoR85/einvoice-api/actions) [![einvoice-worker](https://github.com/TiagoR85/einvoice-worker/actions/workflows/ci.yml/badge.svg)](https://github.com/TiagoR85/einvoice-worker/actions) [![einvoice-ui](https://github.com/TiagoR85/einvoice-ui/actions/workflows/ci.yml/badge.svg)](https://github.com/TiagoR85/einvoice-ui/actions)
 
 OpenIddict/OIDC · JWT · RabbitMQ · MinIO/S3 · iText · Redis · PostgreSQL · Blazor
 
-- [`einvoice-api`](https://github.com/TiagoR85/einvoice-api) — REST API: scoped JWT auth, transactional outbox → CloudEvents on RabbitMQ, Redis idempotency + rate limiting · v1.0.0
-- [`einvoice-worker`](https://github.com/TiagoR85/einvoice-worker) — async XML/PDF processing (iText) with idempotency markers and retry classification · v1.0.0
-- [`einvoice-ui`](https://github.com/TiagoR85/einvoice-ui) — Blazor dashboard with confidential-client OAuth and a one-command hub compose · v1.0.0
+- [`einvoice-api`](https://github.com/TiagoR85/einvoice-api) — REST API: scoped JWT auth, transactional outbox → CloudEvents on RabbitMQ, Redis idempotency + rate limiting
+- [`einvoice-worker`](https://github.com/TiagoR85/einvoice-worker) — invoice → PDF processing (iText) with idempotency markers, retry classification and DLQ
+- [`einvoice-ui`](https://github.com/TiagoR85/einvoice-ui) — Blazor dashboard with confidential-client OAuth and a one-command hub compose
 
-**Family 2 — `logpipe` (observability pipeline)** — *shipped · v1.0.0*
+**Family 2 — `logpipe`** (observability pipeline) — *shipped v1.0.0*
+
+[![logpipe-ingest](https://github.com/TiagoR85/logpipe-ingest/actions/workflows/ci.yml/badge.svg)](https://github.com/TiagoR85/logpipe-ingest/actions) [![logpipe-search](https://github.com/TiagoR85/logpipe-search/actions/workflows/ci.yml/badge.svg)](https://github.com/TiagoR85/logpipe-search/actions) [![logpipe-ui](https://github.com/TiagoR85/logpipe-ui/actions/workflows/ci.yml/badge.svg)](https://github.com/TiagoR85/logpipe-ui/actions)
 
 OpenTelemetry · Prometheus · NLog · Elasticsearch · gRPC · Redis · Blazor
 
@@ -43,17 +49,33 @@ OpenTelemetry · Prometheus · NLog · Elasticsearch · gRPC · Redis · Blazor
 - [`logpipe-search`](https://github.com/TiagoR85/logpipe-search) — Elasticsearch indexing with 7-day retention (daily indices + alias), fuzzy search and facets behind OIDC scopes
 - [`logpipe-ui`](https://github.com/TiagoR85/logpipe-ui) — Blazor search dashboard + one-command Docker hub (git-context builds) · 83 tests, 85–92% coverage
 
-**Family 3 — `jobforge` (job orchestration)** — *planned*
+**Family 3 — `jobforge`** (job orchestration) — *shipped v1.0.0*
 
-Kafka · Redis leases · gRPC streaming · outbox/idempotency · Blazor
+[![jobforge-orchestrator](https://github.com/TiagoR85/jobforge-orchestrator/actions/workflows/ci.yml/badge.svg)](https://github.com/TiagoR85/jobforge-orchestrator/actions) [![jobforge-runner](https://github.com/TiagoR85/jobforge-runner/actions/workflows/ci.yml/badge.svg)](https://github.com/TiagoR85/jobforge-runner/actions) [![jobforge-ui](https://github.com/TiagoR85/jobforge-ui/actions/workflows/ci.yml/badge.svg)](https://github.com/TiagoR85/jobforge-ui/actions)
 
-- `jobforge-orchestrator` · `jobforge-runner`
+Kafka · Redis leases · gRPC streaming · outbox/idempotency · OpenTelemetry · Blazor
 
-**Foundations & standalone**
+- [`jobforge-orchestrator`](https://github.com/TiagoR85/jobforge-orchestrator) — scheduling API: durable jobs on PostgreSQL, outbox → Kafka, cron scheduling, gRPC dispatch, OpenIddict auth
+- [`jobforge-runner`](https://github.com/TiagoR85/jobforge-runner) — gRPC job executor with Redis leases, heartbeat and at-least-once semantics
+- [`jobforge-ui`](https://github.com/TiagoR85/jobforge-ui) — Blazor control dashboard + one-command Docker compose for the family
+
+**Foundations**
+
+[![docker-dotnet-template](https://github.com/TiagoR85/docker-dotnet-template/actions/workflows/ci.yml/badge.svg)](https://github.com/TiagoR85/docker-dotnet-template/actions) [![ci-pipeline-templates](https://github.com/TiagoR85/ci-pipeline-templates/actions/workflows/ci.yml/badge.svg)](https://github.com/TiagoR85/ci-pipeline-templates/actions)
 
 - [`docker-dotnet-template`](https://github.com/TiagoR85/docker-dotnet-template) — hardened multi-stage .NET image (non-root, healthchecks, Trivy-gated CI)
 - [`ci-pipeline-templates`](https://github.com/TiagoR85/ci-pipeline-templates) — reusable pipelines for GitHub Actions / Azure DevOps / Jenkins with a coverage quality gate
-- more standalone repos landing weekly
+
+**Standalone engineering**
+
+[![akka-cluster-jobs](https://github.com/TiagoR85/akka-cluster-jobs/actions/workflows/ci.yml/badge.svg)](https://github.com/TiagoR85/akka-cluster-jobs/actions) [![soap-grpc-bridge](https://github.com/TiagoR85/soap-grpc-bridge/actions/workflows/ci.yml/badge.svg)](https://github.com/TiagoR85/soap-grpc-bridge/actions) [![nfe-xml-to-report](https://github.com/TiagoR85/nfe-xml-to-report/actions/workflows/ci.yml/badge.svg)](https://github.com/TiagoR85/nfe-xml-to-report/actions) [![vbnet-strangler-fig](https://github.com/TiagoR85/vbnet-strangler-fig/actions/workflows/ci.yml/badge.svg)](https://github.com/TiagoR85/vbnet-strangler-fig/actions) [![powerhell-deploy-kit](https://github.com/TiagoR85/powerhell-deploy-kit/actions/workflows/ci.yml/badge.svg)](https://github.com/TiagoR85/powerhell-deploy-kit/actions) [![contract-tests-wiremock](https://github.com/TiagoR85/contract-tests-wiremock/actions/workflows/ci.yml/badge.svg)](https://github.com/TiagoR85/contract-tests-wiremock/actions)
+
+- [`akka-cluster-jobs`](https://github.com/TiagoR85/akka-cluster-jobs) — distributed job scheduler on Akka.NET Cluster + Shard Coordinator: HTTP API, at-least-once execution, Docker 3-node e2e
+- [`soap-grpc-bridge`](https://github.com/TiagoR85/soap-grpc-bridge) — SOAP → gRPC bridging with contract tests · v1.0.1
+- [`nfe-xml-to-report`](https://github.com/TiagoR85/nfe-xml-to-report) — Brazilian NF-e XML → PDF/CSV reporting (Python CLI + .NET tool, schema validation, DV checks)
+- [`vbnet-strangler-fig`](https://github.com/TiagoR85/vbnet-strangler-fig) — strangler-fig modernization of a legacy VB.NET app (.NET facade + characterization tests)
+- [`powerhell-deploy-kit`](https://github.com/TiagoR85/powerhell-deploy-kit) — hardened PowerShell deployment scripts: WhatIf/dry-run, rollback, secret scanning
+- [`contract-tests-wiremock`](https://github.com/TiagoR85/contract-tests-wiremock) — WireMock-based contract testing suite for HTTP consumers
 
 ---
 

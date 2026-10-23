@@ -26,7 +26,14 @@
 
 ### Portfolio
 
-18 public repos · all green on CI · tagged **v1.0.0+** with Releases · 3–5 ADRs each · Dependabot everywhere
+26 public repos · all green on CI · tagged **v1.0.0+** with Releases · 3–5 ADRs each · Dependabot everywhere
+
+**Live — this site**
+
+[![portfolio deploy](https://github.com/TiagoR85/portfolio/actions/workflows/deploy.yml/badge.svg)](https://github.com/TiagoR85/portfolio/actions/workflows/deploy.yml) → **[portfolio.tiagords.com.br](https://portfolio.tiagords.com.br)**
+
+- [`portfolio`](https://github.com/TiagoR85/portfolio) — my own site, **published in production** on a VPS: Astro 7 (Content Layer) + React islands + Tailwind 4, unique black theme with design tokens, reproducible portrait pipeline (`sharp`), same reusable CI template as the repos above (blocking `npm audit` + CodeQL), zero-downtime deploy with smoke test on every push and HTTPS via certbot in the proxy
+
 
 **Family 1 — `einvoice-hub`** (EU e-invoicing · SaaS candidate) — *shipped v1.0.0*
 
@@ -94,6 +101,8 @@ Kafka · Redis leases · gRPC streaming · outbox/idempotency · OpenTelemetry �
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
 ![Vue](https://img.shields.io/badge/Vue.js-4FC08D?style=for-the-badge&logo=vuedotjs&logoColor=white)
 ![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![Astro](https://img.shields.io/badge/Astro-BC52EE?style=for-the-badge&logo=astro&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
 ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
 ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
 ![Flutter](https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white)
